@@ -6,9 +6,9 @@
         <group id="MyGroup"
                label="Тестовое задание">
 			<button id="addSlideButton" label="Добавить слайд" size="large"
-                  imageMso="SlideInsert"
-                  onAction="OnAddSlideButtonClicked"/>
-        </group>
+                imageMso="AnimationAddGallery"
+                onAction="OnAddSlideButtonClicked"/>
+		</group>
       </tab>
     </tabs>
   </ribbon>
