@@ -61,8 +61,7 @@ namespace Testing_Task
 
         public void OnAddSlideButtonClicked(Office.IRibbonControl control)
         {
-            int slidesCount = Globals.ThisAddIn.Application.ActivePresentation.Slides.Count;
-            PowerPoint.Slide newSlide = Globals.ThisAddIn.Application.ActivePresentation.Slides.Add(slidesCount, PowerPoint.PpSlideLayout.ppLayoutBlank);
+            PowerPoint.Slide newSlide = Globals.ThisAddIn.Application.ActivePresentation.Slides.Add(1, PowerPoint.PpSlideLayout.ppLayoutBlank);
 
             try
             {
