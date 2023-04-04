@@ -2,7 +2,7 @@
 <customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui" onLoad="Ribbon_Load">
   <ribbon>
     <tabs>
-      <tab idMso="TabAddIns">
+      <tab idMso="TabAddIns" label="Тестовое задание">
         <group id="MyGroup"
                label="Тестовое задание">
 			<button id="addSlideButton" label="Добавить слайд" size="large"
